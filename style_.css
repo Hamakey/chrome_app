@@ -1,9 +1,27 @@
-body{
-
-    background-color:tomato;
+.js-clock{
+    margin-bottom : 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color:#34495e;
+}
+body {
+  color:#34495e;
+  transition: color 0.5s ease-in-out;
 
 }
-h1{
-    display:flex;
-    color:white;
+.btn {
+  cursor: pointer;
 }
+.clicked{
+  color:#7f8c8d;
+
+}
+.form, .greeting {
+  display:none;
+
+}
+
+.showing{
+  display:block;
+}
+
