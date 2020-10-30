@@ -1,0 +1,9 @@
+body{
+
+    background-color:tomato;
+
+}
+h1{
+    display:flex;
+    color:white;
+}
